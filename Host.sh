@@ -36,11 +36,11 @@ cd /bin
 curl -L https://github.com/trentm/json/raw/master/lib/json.js > json ; chmod 755 json
 cd /etc/php/7.4/apache2
 rm -fr php.ini
-wget https://raw.githubusercontent.com/jack1eljoker1/VPS/master/php.ini
+wget https://raw.githubusercontent.com/jack1eljoker1/VPS/blob/main/php.ini
 cd
 cd /etc/apache2
 rm -fr apache2.conf
-wget https://raw.githubusercontent.com/jack1eljoker1/VPS/master/apache2.conf
+wget https://raw.githubusercontent.com/jack1eljoker1/VPS/blob/main/apache2.conf
 cd
 sudo systemctl restart apache2
 echo -e "\n\nتم تنصيب الاستضافه علي السيرفر\n\n"
